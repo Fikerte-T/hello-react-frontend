@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# React-redux-capstone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> This is a single page react application built around Narrative API with daily COVID data. It enables users to get information about the COVID situation in different areas around the world. Once the app is opened, users are presented with a homepage with COVID distribution among countries from hightst to lowest on that particular date. Users can also use the search bar to search for a specific country.
 
-## Available Scripts
+## Technologies
 
-In the project directory, you can run:
+- React
+- Redux
 
-### `npm start`
+## Getting Started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+To get a local copy up and running follow these simple example steps.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Setup
 
-### `npm test`
+1.  Open a terminal, navigate to the directory that you would like to clone the repository into using commands like:
+    - `cd /pathname` to change your working directory.
+2.  Next, clone the remote repository and create a local copy on your machine using this command:
+    - `git clone git@github.com:Fikerte-T/hello-react-frontend.git`
+3.  Now you can see the contents of the remote repository on your machine by moving into the newly cloned directory:
+    - `hello-react-frontend`
+    - `ls -la`
+4.  run `npm install` on the command line to download all dependency packages.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Run
 
-### `npm run build`
+1. run `npm run build` Builds the app for production to the `build` folder.\.
+2. run `npm start` to start the application in production mode.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+In your browser, go to
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- `http://localhost:3006/greetings`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Author
 
-### `npm run eject`
+👤 **Fikerte Tesfaye**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- GitHub: [@Fikerte-T](https://github.com/Fikerte-T)
+- Twitter: [@tofikertesfaye](https://twitter.com/tofikertesfaye)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/fikerte-tesfaye-a68337216/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Show your support
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Give a ⭐️ if you like this project!
 
-## Learn More
+## Acknowledgments
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Original design idea by [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio) under the [Creative Commons License](https://creativecommons.org/licenses/by-nc/4.0/)
