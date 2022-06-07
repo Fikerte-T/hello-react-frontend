@@ -1,4 +1,4 @@
-# Hello-Rails-Backend
+# Hello-Rails-Frontend
 > The hello rails react app is a website that displays a random greeting with a button click. It uses a Ruby on Rails backend which contains a greeting api endpoint and React front-end to display greeting message fetched from the rails api.
 
 ## Technologies
