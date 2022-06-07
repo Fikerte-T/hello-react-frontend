@@ -1,6 +1,5 @@
-# React-redux-capstone
-
-> This is a single page react application built around Narrative API with daily COVID data. It enables users to get information about the COVID situation in different areas around the world. Once the app is opened, users are presented with a homepage with COVID distribution among countries from hightst to lowest on that particular date. Users can also use the search bar to search for a specific country.
+# Hello-Rails-Backend
+> The hello rails react app is a website that displays a random greeting with a button click. It uses a Ruby on Rails backend which contains a greeting api endpoint and React front-end to display greeting message fetched from the rails api.
 
 ## Technologies
 
