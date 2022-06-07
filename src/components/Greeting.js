@@ -8,14 +8,17 @@ const Greeting = () => {
 
   useEffect(() => {
     getDataFromApi();
-  }, [])
+  }, []);
 
   return (
     <div>
-      <h3> { greeting }</h3>
-      <button className="getGreetingsBtn" onClick={() => dispatch(getDataFromApi())}>Random Greeting</button>
+      <h3>
+        {' '}
+        { greeting }
+      </h3>
+      <button type="button" className="getGreetingsBtn" onClick={() => dispatch(getDataFromApi())}>Random Greeting</button>
     </div>
-  )
-}
+  );
+};
 
-export default Greeting
+export default Greeting;

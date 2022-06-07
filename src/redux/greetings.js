@@ -4,13 +4,12 @@ const initialState = [];
 export const getDataFromApi = () => (async (dispatch) => {
   const response = await fetch('http://localhost:3000/v1/greetings');
   const responseData = await response.json();
-  const greetingMsg = responseData.message
+  const greetingMsg = responseData.message;
 
   dispatch({
     type: GET_DATA_FROM_API,
     payload: greetingMsg,
   });
-
 });
 
 const greetingReducer = (state = initialState, action) => {
